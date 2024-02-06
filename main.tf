@@ -20,7 +20,7 @@ resource "aws_instance" "jenkins-ec2" {
   }
 }
 
-#Jenkins Security Group
+#Jenkins Security Group.
 resource "aws_security_group" "jenkins-sg" {
   name        = "jenkins-sg"
   description = "Allow Port 22 and 8080"
